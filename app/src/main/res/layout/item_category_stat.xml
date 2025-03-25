@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:background="@drawable/bg_category_box"
+    android:layout_marginBottom="8dp">
+
+    <!-- % -->
+    <TextView
+        android:id="@+id/txtCategoryPercent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="43%"
+        android:background="@drawable/bg_percent_box"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:paddingHorizontal="8dp"
+        android:paddingVertical="4dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="12dp" />
+
+    <!-- ชื่อหมวด -->
+    <TextView
+        android:id="@+id/txtCategoryName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Transport"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_gravity="center_vertical" />
+
+    <!-- จำนวนเงิน -->
+    <TextView
+        android:id="@+id/txtCategoryAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="฿420.00"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:layout_gravity="center_vertical" />
+</LinearLayout>

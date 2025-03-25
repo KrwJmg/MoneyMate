@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/txtCategoryName"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Category"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:id="@+id/editTextAmount"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:hint="0.00"
+        android:inputType="numberDecimal"
+        android:textColor="@android:color/white"
+        android:textColorHint="#AAAAAA"
+        android:backgroundTint="@color/mint_green" />
+</LinearLayout>

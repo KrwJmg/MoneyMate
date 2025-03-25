@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_daily"
+        android:icon="@drawable/ic_calendar"
+        android:title="Daily" />
+    <item android:id="@+id/nav_stats"
+        android:icon="@drawable/ic_chart"
+        android:title="Stats" />
+    <item android:id="@+id/nav_budget"
+        android:icon="@drawable/ic_wallet"
+        android:title="Budget" />
+
+</menu>
